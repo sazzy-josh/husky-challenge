@@ -48,7 +48,7 @@ const Footer = () => {
                 {" "}
                 QUICK LINKS{" "}
               </h3>
-              <div className='flex flex-col xl:flex-row gap-x-6'>
+              <div className='flex flex-col xl:flex-row gap-x-6 text-sm xl:text-base'>
                 <div className='flex flex-col'>
                   {["Homepage", "About Us", "Services"].map(
                     (item, idx, arr) => {
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <section className='text-center text-[#0A437A] bg-bgColor !font-worksans text-base py-4 xl:py-8'>
+      <section className='text-center text-[#0A437A] bg-bgColor !font-worksans text-sm xl:text-base py-4 xl:py-8'>
         © {new Date().getFullYear()}, RC Stone Inc., All Rights Reserved.
       </section>
     </footer>
